@@ -1,5 +1,5 @@
-.animal {
-  width: 200px;
+.zodiacCard {
+  /* width: 200px;
   margin: 10px;
   border-radius: 5px;
   padding: 10px;
@@ -9,22 +9,29 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  text-align: center;
+  text-align: center; */
 }
 
-.animal img {
+img {
   width: 100px;
 }
 
 h2 {
   margin-bottom: 0px;
+  color: white;
 }
 
 p {
   margin-top: 0px;
+  color: white;
 }
 
-.animal .name {
+.dates {
   text-transform: uppercase;
   font-weight: bold;
+  color: white;
+}
+
+.dates {
+  color: white;
 }
