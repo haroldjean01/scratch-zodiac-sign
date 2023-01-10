@@ -5,5 +5,11 @@ import ZodiacCard from '../ZodiacCard/ZodiacCard.js';
 import { zodiac } from '../../data.js';
 
 export default function Main() {
-  return <main style={{ backgroundImage: { backgroundImage: `url(${background})` } }}></main>;
+  return (
+    <main style={{ backgroundImage: `url(${background})` }}>
+      {zodiac.map((sign) => (
+        <ZodiacCard key={sign.id} {...sign} />
+      ))}
+    </main>
+  );
 }
