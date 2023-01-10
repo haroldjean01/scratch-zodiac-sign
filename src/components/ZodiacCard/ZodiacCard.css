@@ -10,6 +10,11 @@
   align-items: center;
   justify-content: center;
   text-align: center; */
+  background-color: antiquewhite;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 30px;
 }
 
 img {
@@ -18,7 +23,7 @@ img {
 
 h2 {
   margin-bottom: 0px;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 p {
@@ -29,7 +34,7 @@ p {
 .dates {
   text-transform: uppercase;
   font-weight: bold;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .dates {
@@ -37,5 +42,5 @@ p {
 }
 
 h3 {
-  color: white;
+  color: rgb(0, 0, 0);
 }
