@@ -5,5 +5,5 @@ import ZodiacCard from '../ZodiacCard/ZodiacCard.js';
 import { zodiac } from '../../data.js';
 
 export default function Main() {
-  return <div style={{ backgroundImage: { backgroundImage: `url(${background})` } }}></div>;
+  return <main style={{ backgroundImage: { backgroundImage: `url(${background})` } }}></main>;
 }
