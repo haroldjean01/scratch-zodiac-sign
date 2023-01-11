@@ -1,0 +1,12 @@
+footer {
+  color: var(--color3);
+  height: 90px;
+  /* background-color: var(--color5); */
+  background: linear-gradient(rebeccapurple, #9198e5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
