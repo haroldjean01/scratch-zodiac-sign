@@ -1,7 +1,9 @@
 header {
   color: var(--color5);
   height: 40px;
-  background-color: var(--color3);
+  /* background-color: var(--color3); */
+  background: linear-gradient(#9198e5, rebeccapurple);
+
   display: flex;
   align-items: center;
   padding-left: 20px;
